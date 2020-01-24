@@ -32,3 +32,15 @@ img.card-img-top{
   position: relative;
   padding-top: 4rem;
 }
+.border-top1{
+  border-top:1rem solid #7f07c3;
+}
+.bg-main1{
+  margin-top:10rem;
+}
+.bg-grad2{
+  background: rgb(156,6,240);
+  background: linear-gradient(90deg, rgba(156,6,240,1) 0%, rgba(71,8,95,1) 100%);
+  color:white;
+  border-bottom:1px solid #fb0799;
+}
