@@ -16,14 +16,15 @@
 
 <body>
   <header>
-    <div class="bg-head">
+    <div class="bg-head p-5">
       <div class="container-fluid">
         <div class="row">
           <div class="col-12">
             <!--Navbar-->
-            <nav class="navbar navbar-expand-sm navbar-light bg-light bg-transparent d-flex justify-content-between">
+            <nav
+              class="navbar navbar-expand-sm navbar-light bg-light bg-transparent d-flex justify-content-between pb-5">
               <div>
-                <a class="navbar-brand" href="#">Navbar</a>
+                <a class="navbar-brand" href="#"><img src="https://picsum.photos/60" alt=""></a>
               </div>
               <div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -35,14 +36,14 @@
                     <li class="nav-item active">
                       <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                       <a class="nav-link" href="#">Features</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                       <a class="nav-link" href="#">Pricing</a>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                     </li>
                   </ul>
                 </div>
@@ -61,7 +62,7 @@
               consectetur quis debitis autem veritatis accusamus! Rem doloremque et nesciunt, sequi ab optio
               exercitationem? Velit, perferendis.</p>
             <h5>Title</h5>
-            <div class="btn btn-primary">Button</div>
+            <button type="button" class="btn btn-block btn-primary">Button</button>
           </div>
         </div>
       </div>
@@ -74,7 +75,19 @@
         <div class="row">
           <div class="col-12 col-md-4">
             <!--Cards-->
-            <div class="card border-0 bg-transparent text-center" style="width: 18rem;">
+            <div class="card border-0 bg-transparent text-center" style="">
+              <img src="https://picsum.photos/200" class="mt-3 card-img-top img-fluid" alt="...">
+              <div class="card-body card-bg d-flex flex-column align-items-center">
+                <p class="card-text">Some quick example text to build on the card title and make up
+                  the bulk of the
+                  card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card border-0 bg-transparent text-center" style="">
               <img src="https://picsum.photos/200" class="mt-3 card-img-top img-fluid" alt="...">
               <div class="card-body card-bg d-flex flex-column align-items-center">
                 <p class="card-text">Some quick example text to build on the card title and make up
@@ -85,18 +98,7 @@
             </div>
           </div>
           <div class="col-12 col-md-4">
-            <div class="card border-0 bg-transparent text-center" style="width: 18rem;">
-              <img src="https://picsum.photos/200" class="mt-3 card-img-top img-fluid" alt="...">
-              <div class="card-body card-bg d-flex flex-column align-items-center">
-                <p class="card-text">Some quick example text to build on the card title and make up
-                  the bulk of the
-                  card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-4">
-            <div class="card border-0 bg-transparent text-center" style="width: 18rem;">
+            <div class="card border-0 bg-transparent text-center" style="">
               <img src="https://picsum.photos/200" class="mt-3 card-img-top img-fluid" alt="...">
               <div class="card-body card-bg d-flex flex-column align-items-center">
                 <p class="card-text">Some quick example text to build on the card title and make up
@@ -136,8 +138,19 @@
       </div>
     </div>
   </main>
+  <!--There-->
   <footer>
-
+    <div class="bg-darker">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-12 d-flex justify-content-center flex-column flex-md-row align-items-center justify-content-md-between">
+            <p class="">Stuff</p>
+            <p class="mb-0">Stuf1</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </footer>
 </body>
 

@@ -1,11 +1,35 @@
 .bg-head{
-  background-color:beige;
+background: rgb(255,255,255);
+background: linear-gradient(30deg, rgba(255,255,255,1) 50%, rgba(147,8,226,1) 50%, rgba(58,6,79,1) 100%);
+}
+button.navbar-toggler{
+  color:#ff0994;
+  border:0px;
+}
+button.btn-primary{
+  background: rgb(151,10,242);
+  background: linear-gradient(45deg, rgba(151,10,242,1) 0%, rgba(191,148,214,1) 100%);
+  border:0px;
+  box-shadow:0.1rem 0.1rem 0.1rem #a2a5a1;
+}
+li{
+  background-color:#ff0994;
+  margin-right:1em;
+  box-shadow:0.15em 0.15em 0.15em #3e035a;
+}
+div.card{
+  padding-top: 10%;
+}
+li.nav-item a.nav-link{
+  padding-bottom:0em;
+  padding-top:0em;
 }
 .bg-main{
   background-color: #fdbf1b;
 }
 img.img-fluid{
   height:auto;
+  box-shadow:0.1rem 0.1rem 0.1rem #a8a8a8
 }
 img.card-img-top{
   border-radius:50%;
@@ -15,22 +39,19 @@ img.card-img-top{
 }
 .card-bg{
   background-color:purple;
-  padding:1em;
   color:white;
   position:absolute;
-  margin-top:20rem;
+  margin-top:110%;
 }
 .card-bg .btn{
   position:absolute;
-  margin-top:5rem;
   border-radius:0px;
   background-color: #ff0994;
   border-color:#ff0994;
-  margin-bottom:3rem;
+  bottom:-1rem;
 }
 .col-md-4.col-12{
   position: relative;
-  padding-top: 4rem;
 }
 .border-top1{
   border-top:1rem solid #7f07c3;
@@ -43,4 +64,15 @@ img.card-img-top{
   background: linear-gradient(90deg, rgba(156,6,240,1) 0%, rgba(71,8,95,1) 100%);
   color:white;
   border-bottom:1px solid #fb0799;
+}
+.bg-darker{
+  border-top:1px solid #1c1b1c;
+  background-color:#292929;
+  color:white;
+  padding-top:1em;
+  padding-bottom:1em;
+}
+.bg-darker p{
+  margin-bottom:0px;
+  font-size:0.5em;
 }
