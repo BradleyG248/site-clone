@@ -2,13 +2,33 @@
   background-color:beige;
 }
 .bg-main{
-  background-color: #ffcc00;
+  background-color: #fdbf1b;
 }
 img.img-fluid{
   height:auto;
-  box-shadow: 0.25em 0.25em 0.25em #cc6600;
 }
 img.card-img-top{
   border-radius:50%;
   height:auto;
+  box-shadow: 0.25em 0.25em 0.25em #a47c0c;
+  margin-bottom:7rem;
+}
+.card-bg{
+  background-color:purple;
+  padding:1em;
+  color:white;
+  position:absolute;
+  margin-top:20rem;
+}
+.card-bg .btn{
+  position:absolute;
+  margin-top:5rem;
+  border-radius:0px;
+  background-color: #ff0994;
+  border-color:#ff0994;
+  margin-bottom:3rem;
+}
+.col-md-4.col-12{
+  position: relative;
+  padding-top: 4rem;
 }
