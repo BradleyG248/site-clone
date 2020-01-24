@@ -18,7 +18,7 @@ li{
   box-shadow:0.15em 0.15em 0.15em #3e035a;
 }
 div.card{
-  padding-top: 10%;
+  padding-top: 20%;
 }
 li.nav-item a.nav-link{
   padding-bottom:0em;
@@ -35,13 +35,14 @@ img.card-img-top{
   border-radius:50%;
   height:auto;
   box-shadow: 0.25em 0.25em 0.25em #a47c0c;
-  margin-bottom:7rem;
+  margin-bottom:6rem;
 }
 .card-bg{
   background-color:purple;
   color:white;
   position:absolute;
   margin-top:110%;
+  max-height:50%;
 }
 .card-bg .btn{
   position:absolute;
