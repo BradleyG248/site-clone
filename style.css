@@ -1,3 +1,14 @@
 .bg-head{
   background-color:beige;
 }
+.bg-main{
+  background-color: #ffcc00;
+}
+img.img-fluid{
+  height:auto;
+  box-shadow: 0.25em 0.25em 0.25em #cc6600;
+}
+img.card-img-top{
+  border-radius:50%;
+  height:auto;
+}
